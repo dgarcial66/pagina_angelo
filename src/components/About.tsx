@@ -36,12 +36,13 @@ const About = () => {
                 Sobre Angelo Acero Fisioterapeuta
               </h2>
               <p className="text-lg text-muted-foreground">
-                especialista en ortopedia y traumatología con más de 10 años de
+                Especialista en ortopedia y traumatología con más de 10 años de
                 experiencia en la rehabilitación de pacientes postoperatorios de
-                Artroplastia de cadera - rodilla , manejo de fracturas en las 4
-                extremidades , postoperatorios de columna vertebral Además
-                cuánto con gran experiencia en el manejo de pacientes con Ataque
-                cerebro vascular , patología neurológica
+                artroplastia de cadera y rodilla, manejo de fracturas en las
+                cuatro extremidades y postoperatorios de columna vertebral.
+                Además, cuento con amplia experiencia en el tratamiento de
+                pacientes con ataque cerebrovascular y diversas patologías
+                neurológicas.
               </p>
               <p className="text-lg text-muted-foreground">
                 Mi enfoque combina técnicas tradicionales con las últimas

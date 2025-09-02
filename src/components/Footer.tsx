@@ -50,11 +50,11 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2 opacity-80">
                 <Phone className="w-4 h-4" />
-                <span>+34 123 456 789</span>
+                <span>320 3970118</span>
               </div>
               <div className="flex items-center space-x-2 opacity-80">
                 <Mail className="w-4 h-4" />
-                <span>angelo.acero@gmail.com</span>
+                <span>angelo.acero1408@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 opacity-80">
                 <MapPin className="w-4 h-4" />
@@ -93,12 +93,15 @@ const Footer = () => {
               </Button>
             </div>
             <div className="space-y-2">
-              <Button variant="secondary" size="sm" className="w-full">
-                Cita Online
-              </Button>
-              <p className="text-xs opacity-70">
-                Reserva tu consulta de evaluación gratuita
-              </p>
+              <a
+                href="https://wa.me/573203970118?text=Hola%20Doctor,%20quiero%20agendar%20una%20consulta."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="secondary" size="sm" className="w-full">
+                  Cita Online
+                </Button>
+              </a>
             </div>
           </div>
         </div>

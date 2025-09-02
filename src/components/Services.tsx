@@ -15,42 +15,36 @@ const Services = () => {
       title: "Fisioterapia Deportiva",
       description:
         "Tratamiento especializado para lesiones deportivas y mejora del rendimiento atlético.",
-      price: "Desde €60",
     },
     {
       icon: Zap,
-      title: "Electroterapia",
+      title: "Terapia Postoperatoria",
       description:
-        "Terapias con equipos avanzados para acelerar la recuperación muscular y aliviar el dolor.",
-      price: "Desde €45",
+        "Recuperación funcional y personalizada después de una cirugía, enfocada en disminuir el dolor, mejorar la movilidad y acelerar el proceso de rehabilitación.",
     },
     {
       icon: Shield,
-      title: "Rehabilitación",
+      title: "Artroplastia de Cadera y Rodilla",
       description:
-        "Programas personalizados de rehabilitación post-operatoria y recuperación funcional.",
-      price: "Desde €55",
+        "Tratamiento especializado para pacientes operados de reemplazo articular, con el fin de recuperar fuerza, estabilidad y calidad de vida.",
     },
     {
       icon: Activity,
       title: "Terapia Manual",
       description:
         "Técnicas manuales especializadas para el tratamiento de disfunciones del sistema musculoesquelético.",
-      price: "Desde €50",
     },
     {
       icon: Brain,
-      title: "Fisioterapia Neurológica",
+      title: "Terapia para ACV (Accidente Cerebrovascular)",
       description:
-        "Tratamiento especializado para pacientes con lesiones neurológicas y trastornos del movimiento.",
-      price: "Desde €65",
+        "Rehabilitación integral orientada a mejorar la movilidad, el equilibrio y la independencia de pacientes que han sufrido un evento cerebrovascular.",
     },
     {
       icon: Dumbbell,
       title: "Ejercicio Terapéutico",
       description:
         "Programas de ejercicios específicos para fortalecer y mejorar la función muscular.",
-      price: "Desde €40",
     },
   ];
 
@@ -71,9 +65,9 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="bg-gradient-card shadow-soft hover:shadow-medium transition-all duration-300 group"
+              className="bg-gradient-card shadow-soft hover:shadow-medium transition-all duration-300 group flex flex-col"
             >
-              <CardHeader className="text-center pb-4">
+              <CardHeader className="text-center pb-4 flex-grow">
                 <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                   <service.icon className="w-8 h-8 text-white" />
                 </div>
@@ -84,13 +78,17 @@ const Services = () => {
                   {service.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="text-center">
-                <div className="text-2xl font-bold text-primary mb-4">
-                  {service.price}
-                </div>
-                <Button variant="outline" className="w-full">
-                  Más Información
-                </Button>
+
+              <CardContent className="text-center mt-auto">
+                <a
+                  href="https://wa.me/573203970118?text=Hola%20Doctor,%20quiero%20agendar%20una%20consulta."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline" className="w-full">
+                    Agendar Consulta
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}

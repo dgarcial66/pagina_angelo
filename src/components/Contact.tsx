@@ -9,13 +9,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Teléfono",
-      info: "+34 123 456 789",
+      info: "320 3970118",
       subInfo: "Llamadas y WhatsApp",
     },
     {
       icon: Mail,
       title: "Email",
-      info: "angelo.acero@gmail.com",
+      info: "angelo.acero1408@gmail.com",
       subInfo: "Respuesta en 24h",
     },
     {

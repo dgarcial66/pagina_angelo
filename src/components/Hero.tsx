@@ -24,9 +24,16 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="default" size="lg" className="text-lg px-8">
-                Reservar Cita
-              </Button>
+              <a
+                href="https://wa.me/573203970118?text=Hola%20Doctor,%20quiero%20reservar%20una%20cita."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="default" size="lg" className="text-lg px-8">
+                  Reservar Cita
+                </Button>
+              </a>
+
               <Button variant="outline" size="lg" className="text-lg px-8">
                 Ver Servicios
               </Button>
@@ -62,17 +69,22 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Clínica de fisioterapia moderna"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[500px] object-contain bg-black rounded-lg"
               />
             </Card>
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-medium">
+            <a
+              href="https://wa.me/573203970118?text=Hola%20Doctor,%20quiero%20agendar%20una%20cita."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-medium block"
+            >
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">
                   Disponible
                 </div>
                 <div className="text-sm text-muted-foreground">Citas Hoy</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
