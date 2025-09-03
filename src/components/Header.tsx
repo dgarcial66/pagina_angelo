@@ -15,7 +15,7 @@ const Header = () => {
                 Fisioterapeuta Angelo Acero
               </h1>
               <p className="text-sm text-muted-foreground">
-                Especialista en Rehabilitación
+                Especialista en Ortopedia y traumatología
               </p>
             </div>
           </div>

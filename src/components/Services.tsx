@@ -42,9 +42,9 @@ const Services = () => {
     },
     {
       icon: Dumbbell,
-      title: "Ejercicio Terapéutico",
+      title: "Entrenamiento Personalizado",
       description:
-        "Programas de ejercicios específicos para fortalecer y mejorar la función muscular.",
+        "Plan individualizado para mejorar fuerza, movilidad y rendimiento físico, adaptado a tus necesidades y objetivos.",
     },
   ];
 

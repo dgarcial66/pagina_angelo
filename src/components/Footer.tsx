@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 opacity-80">
                 <MapPin className="w-4 h-4" />
-                <span>Calle Salud, 123, Bogota</span>
+                <span>Cita En Casa Especializada</span>
               </div>
               <div className="flex items-center space-x-2 opacity-80">
                 <Clock className="w-4 h-4" />
@@ -108,7 +108,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-80">
-            © 2024 Angelo Acero Fisioterapeuta. Todos los derechos reservados. |
+            © 2025 Angelo Acero Fisioterapeuta. Todos los derechos reservados. |
             Colegiado nº 12345 | Política de Privacidad | Términos de Servicio
           </p>
         </div>
