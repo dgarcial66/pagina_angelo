@@ -97,7 +97,7 @@ const Hero = () => {
             >
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">
-                  Disponible
+                  consulta gratuita
                 </div>
                 <div className="text-sm text-muted-foreground">Citas Hoy</div>
               </div>
