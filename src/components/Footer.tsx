@@ -41,7 +41,7 @@ const Footer = () => {
               <li>Rehabilitación</li>
               <li>Terapia Manual</li>
               <li>Electroterapia</li>
-              <li>Ejercicio Terapéutico</li>
+              <li>Entrenamiento Personalizado</li>
             </ul>
           </div>
 
